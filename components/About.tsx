@@ -12,13 +12,13 @@ export function About() {
           <SectionReveal>
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div className="absolute -top-6 -left-6 hidden h-full w-full border border-champagne/50 sm:block" />
-              <div className="relative aspect-[4/5] overflow-hidden bg-[#2b2b2b]">
+              <div className="relative aspect-[4/5] overflow-hidden bg-ivory-deep">
                 <Image
                   src={profile.images.portrait}
                   alt={`${profile.name}, ${profile.title}`}
                   fill
                   sizes="(max-width: 1024px) 90vw, 480px"
-                  className="object-cover object-[center_18%]"
+                  className="object-cover object-top"
                 />
               </div>
               <p className="mt-4 text-[11px] tracking-[0.18em] text-muted uppercase">

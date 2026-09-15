@@ -39,7 +39,7 @@ export function ConsultationCta() {
           <SectionReveal delay={0.08} className="relative mx-auto w-full max-w-[380px]">
             <div className="relative aspect-[3/4]">
               <Image
-                src={profile.images.standing}
+                src={profile.images.crossed}
                 alt={`${profile.name}, ${profile.title}`}
                 fill
                 sizes="(max-width: 1024px) 80vw, 380px"
