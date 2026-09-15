@@ -24,6 +24,7 @@ export const profile = {
   images: {
     portrait: "/images/aya/portrait.jpg",
     hero: "/images/aya/hero.png",
+    standing: "/images/aya/standing.png",
   },
   linkedin: "https://www.linkedin.com/in/ayasalam/",
   instagram: "",
